@@ -52,3 +52,13 @@ if (num1%2==0){
 let age2 = 18
 let a1 = age2 > 18? `You can Drive` : `you cann't Drive`
 console.log(a1)
+
+//06
+let num2 = 11
+if (num2%2==0){
+    console.log(`${num2} is divisiable by 2`)
+} else if(num1%3==0){
+    console.log(`${num2} is divisible by 3`)
+} else {
+    console.log(`${num2} is number is not dvisiable by both 2 and 3`)
+}
