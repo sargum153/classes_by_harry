@@ -22,13 +22,28 @@ console.log("sum of first" +n+ "natural number is" + sum);
 
 // Write a Sample program using For loops of your chice(Factorial calculation)
 
-let factors=0
-let n1 = prompt("Enter the value of n1");
-n1 = Number.parseInt(n1)
-for(i=0; i<=n1; i++){
-    if(n1 % i == 0){
-        factors.push(i)
-    }
 
+
+
+
+
+
+
+
+//Counting from 1 to 15:
+for (let i=1; i<=15; i++){
+    console.log(i)
 }
-return factors
+
+//Printing even numbers from 2 to 10:
+for (let i=2; i<=10; i+=2){
+    console.log(i)
+}
+
+// Printing 3 to 50 which numbers are divisiable by 3:
+
+for (i=3; i<=50; i+=3){
+    console.log(i)
+}
+
+// 
